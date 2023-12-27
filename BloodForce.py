@@ -712,7 +712,7 @@ clear_os()
 #Imprimindo as logos:
 print(f'\033[31m{logo_blood}\033[m',end='')
 print(f'\033[32m{logo_force}\033[m')
-print('\033[35mBy: PsyFiser! \033[m')
+print('\033[35mBy: Arthur Speziali! \033[m')
 for quebra_linha in range(3):
     print('\n')
 
