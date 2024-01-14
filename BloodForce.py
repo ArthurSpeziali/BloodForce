@@ -30,25 +30,25 @@ if platform.system() == 'Linux':
     
     #Defini o alias para acessar  o programa:
     alias_blood = f'''
-    #Alias adicionado automaticamente do program em Python BloodForce    
-    alias bf="python3 {path_blood}"'''
+#Alias adicionado automaticamente do program em Python BloodForce    
+alias bf="python3 {path_blood}"'''
     
-    #CCalcula a home do usuario:
-    home_alias = home = str(Path.home())
+    #Calcula a home do usuario:
+    home_alias str(Path.home())
     
     #Tenta abrir o "bash_aliases", na pasta home:
     try:
         alias_path = f'{home_alias}/.bash_aliases'
         
         with open(alias_path, 'r', encoding='utf-8') as b_alias:
-            bash_read = b_alias.read().split('\n')
+            bash_read = b_alias.read()
     
     #Se não existir, abre o "bashrc", que também consegue colocar os aliases:
     except FileNotFoundError:
         alias_path = f'{home_alias}/.bashrc'
         
         with open(alias_path, 'r', encoding='utf-8') as b_alias:
-            bash_read = b_alias.read().split('\n')
+            bash_read = b_alias.read()
             
     #Calculando se o alias já existe, senão, adiciona o alias:
     if not alias_blood in bash_read:
