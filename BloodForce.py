@@ -34,7 +34,7 @@ if platform.system() == 'Linux':
 alias bf="python3 {path_blood}"'''
     
     #Calcula a home do usuario:
-    home_alias str(Path.home())
+    home_alias = str(Path.home())
     
     #Tenta abrir o "bash_aliases", na pasta home:
     try:
