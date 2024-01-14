@@ -396,10 +396,9 @@ def comand_line():
                 
             if error == 0:
                 salvar_json(config)
-                break
+                print('\033[38;5;243mComando Sucedido! \n')                
         
         except:
             print('\033[38;5;160mComando inválido! Tente novamente ou digite "-h" para obter ajuda ou digite "exit" para sair.\n ')
             error = 1
 
-    return print('\033[38;5;243mComando Sucedido! \n')
