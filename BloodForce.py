@@ -913,8 +913,8 @@ por linha, usando as configurações do programa.''')
         
 elif opção1 == 2:
     clear_os()
+    print('\033[38;5;76mLinha de comando Ativo:\n\n')
     while True:
-        print('\033[38;5;76mLinha de comando Ativo:\n\n')
         
         try:
             cmd = input('\033[38;5;99m').strip().lower()
@@ -946,12 +946,12 @@ elif opção1 == 2:
                 
             elif cmd == 'conf':
                 clear_os()
-                print('Configurações iniciadas (Aperte CTRL + C para sair):\n\n')
+                print('Configurações iniciadas (Aperte CTRL + C, ou "exit" para sair):\n\n')
                 
                 comand_line()
                     
             else:
-                print('\033[38;5;160mComando inválido! Tente novamente ou digite "help" para obter ajuda.\n')
+                print('\n\033[38;5;160mComando inválido! Tente novamente ou digite "help" para obter ajuda.\n')
             
         except KeyboardInterrupt:
             clear_os()
