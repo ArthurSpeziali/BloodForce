@@ -912,9 +912,8 @@ por linha, usando as configurações do programa.''')
         
         
 elif opção1 == 2:
-        
+    clear_os()
     while True:
-        clear_os()
         print('\033[38;5;76mLinha de comando Ativo:\n\n')
         
         try:
