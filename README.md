@@ -1,6 +1,6 @@
 Obrigado por baixar o BloodForce! 
 GitHub do projeto: https://www.github.com/ArthurSpeziali/BloodForce
-Feito por: Arthur Speziali.
+<br>Feito por: Arthur Speziali.
 
 Para instalar de forma correta, siga as instruções!
 
@@ -16,7 +16,7 @@ No Windows:
 Baixe o Python3 pela Microsoft Store (Preferencialmente o python3.12).
 
 No Linux:
-Baixe o arquivo .tar oficial do Python (Preferencialmente o python3.12), e descompacte na usr/bin.
+Baixe o arquivo .tar oficial do Python (Preferencialmente o python3.12), e descompacte na /usr/bin.
 
 3- Instale as bibliotecas.
 No Windows e Linux:
@@ -27,11 +27,11 @@ Espere até terminar de carregar, precisa do acesso a internet!
 4- Inicie o arquivo.
 No Windows e Linux:
 No terminal, na pasta do repositório, digite:
-Digite o comando "python3 BloodForce.py".
+Digite o comando "python BloodForce.py".
 
 5- Pronto! Só aproveitar!
 Segue as instruções do programa que não tem erro! Se quiser fechar, de um CTRL + C!
 
 *-Bonûs.
-Depois de iniciar o programa, se tiver usando Linux, o programa já cria um Alias para acessalo.
+Depois de iniciar o programa, se tiver usando Linux, o programa já cria um Alias para acessa-lo.
 Só digitar no terminal "bf"!
