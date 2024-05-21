@@ -246,10 +246,10 @@ def comand_line():
 
             elif cmd[0] == '-ktime':
                 if cmd[1] == '-u':
-                    config.update({'ktime': {'u': float(cmd[2])}, {'s': config['ktime']['s']}})
+                    config.update({'ktime': {'u': float(cmd[2]), 's': config['ktime']['s']}})
                     
                 elif cmd[1] == '-s':
-                    config.update({'ktime': {'s': float(cmd[2])}, {'u': config['ktime']['u']}})
+                    config.update({'ktime': {'s': float(cmd[2]), 'u': config['ktime']['u']}})
                     
                 else:
                     print('\033[38;5;160mComando inválido! Tente novamente ou digite "-h" para obter ajuda ou digite "exit" para sair.\n')
@@ -272,10 +272,10 @@ def comand_line():
             elif cmd[0] == '-denter':
                 if cmd[1] == '-u':                    
                     if cmd[2] == 'true':
-                        config.update({'denter': {'u': True}, {'s': config['denter']['s']}})
+                        config.update({'denter': {'u': True, 's': config['denter']['s']}})
                     
                     elif cmd[2] == 'false':
-                        config.update({'denter': {'u': False}, {'s': config['denter']['s']}})
+                        config.update({'denter': {'u': False, 's': config['denter']['s']}})
                         
                     else:
                         print('\033[38;5;160mComando inválido! Tente novamente ou digite "-h" para obter ajuda ou digite "exit" para sair.\n')
@@ -283,10 +283,10 @@ def comand_line():
                 
                 elif cmd[1] == '-s':
                     if cmd[2] == 'true':
-                        config.update({'denter': {'s': True}, {'u': config['denter']['u']}})
+                        config.update({'denter': {'s': True, 'u': config['denter']['u']}})
                     
                     elif cmd[2] == 'false':
-                        config.update({'denter': {'s': False}, {'u': config['denter']['u']}})
+                        config.update({'denter': {'s': False, 'u': config['denter']['u']}})
                         
                     else:
                         print('\033[38;5;160mComando inválido! Tente novamente ou digite "-h" para obter ajuda ou digite "exit" para sair.\n')
@@ -294,10 +294,10 @@ def comand_line():
                         
                 elif cmd[1] == '-su':
                     if cmd[2] == 'true':
-                        config.update({'denter': {'s': True}, {'u': True}})
+                        config.update({'denter': {'s': True, 'u': True}})
                     
                     elif cmd[2] == 'false':
-                        config.update({'denter': {'s': False}, {'u': False}})
+                        config.update({'denter': {'s': False, 'u': False}})
                         
                     else:
                         print('\033[38;5;160mComando inválido! Tente novamente ou digite "-h" para obter ajuda ou digite "exit" para sair.\n')
