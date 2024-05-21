@@ -16,12 +16,12 @@ No Windows:
 Baixe o Python3 pela Microsoft Store (Preferencialmente o python3.12).
 
 No Linux:
-Baixe o arquivo .tar oficial do Python (Preferencialmente o python3.12), e descompacte na /usr/bin.
+Baixe o arquivo .tar.xy oficial do Python (Preferencialmente o python3.12), e descompacte na /usr/bin.
 
 3- Instale as bibliotecas.
 No Windows e Linux:
 Navegue até a pasta do repósitorio e acesse o terminal do seu sistema nesta pasta,
-digite o comando "pip install -r requerimentos.txt".
+digite o comando "pip install -r requeriments.txt".
 Espere até terminar de carregar, precisa do acesso a internet!
 
 4- Inicie o arquivo.

@@ -1,7 +1,6 @@
 #Importando as bibliotecas:
 import random
 from turtle import home
-from click import command
 from pynput import keyboard
 from time import sleep
 import os
