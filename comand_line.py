@@ -85,7 +85,7 @@ help_config = """
                     \033[38;5;220mpage_down (Somente colocar a tecla desejada).
                     
 \033[38;5;140m-ktime \033[92m= Altera o tempo para tentar novamente (Padrão de fábrica: 0.01):
-                    \033[38;5;220m-u (Para colocar no usúario), -s (Para colocar na senha), -su (Para colocar no usuario e senha), False (Desativa o tempo).
+                    \033[38;5;220m-u (Para colocar no usúario), -s (Para colocar na senha), False (Desativa o tempo).
                     \033[38;5;131m5 (Ele esperara 5 segundos!);
                  
 \033[38;5;140m-tmp \033[92m= Especifica se em alguns Brute Forces vai alterar a entrada, colocando mais combinções. Exemplo: I:senha 123; O:Senha123, Senha_123, SENHA123... etc (Padrão: False):
