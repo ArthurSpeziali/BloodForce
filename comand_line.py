@@ -163,11 +163,11 @@ def comand_line():
         
         try:
             if cmd[0] == '-car':
-                if cmd[1] == 'lt':
+                if cmd[1] == '-lt':
                     config.update({'car': 'lt'})
-                elif cmd[1] == 'num':
+                elif cmd[1] == '-num':
                     config.update({'car': 'num'})
-                elif cmd[1] == 'ltnum':
+                elif cmd[1] == '-ltnum':
                     config.update({'car': 'ltnum'})
                 else:
                     print('\033[38;5;160mComando inválido! Tente novamente ou digite "-h" para obter ajuda ou digite "exit" para sair.\n')
